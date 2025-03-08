@@ -1,0 +1,120 @@
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.main{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 6px 6px 20px 1px hsl(0, 0%, 0%,0.7);
+    margin-top: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+}
+.equilibrium{
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.equilibrium img{
+    width: 200px;
+}
+.view{
+    
+    position: absolute;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+#view{
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+.view:hover #view{
+    opacity: 1;
+}
+.view:hover{
+    background-color: rgba(0, 255, 247,0.1);
+    cursor: pointer;
+}
+.view:hover + div>img{
+    filter: blur(4px);
+}
+
+#p1{
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+}
+#p1:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+#p2{
+    color: hsl(215, 51%, 70%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.par{
+    display: inline-flex;
+    justify-content: space-between;
+}
+hr{
+   margin: 0;
+   border-color: hsl(215, 51%, 70%);
+}
+#p3{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+#p3>img{
+    width: 8px;
+    height: 13px;
+    margin-right: 3px;
+}
+#p4{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+}
+#p4>img{
+    width: 13px;
+    margin-top: 1px;
+    margin-right: 2px;
+}
+.createur{
+    display: inline-flex;
+}
+.createur>img{
+    width: 35px;
+    height: 35px;
+    margin: 6px 5px 0px 0px ;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#p5{
+    color: hsl(215, 51%, 70%);
+}
+span{
+    color: hsl(0, 0%, 100%);
+}
+span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
