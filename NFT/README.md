@@ -13,5 +13,5 @@ Un projet démontrant la création et l'affichage de tokens non fongibles.
 
 - HTML
 - CSS
-- JavaScript
+
 
