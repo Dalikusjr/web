@@ -7,7 +7,7 @@ Ce projet est conçu pour démontrer une fonctionnalité ou un concept spécifiq
 
 ## Capture d'écran
 
-![Capture d'écran du projet NFT](/demo.png)
+![Capture d'écran du projet NFT](nft/demo.png)
 
 ## Langages utilisés
 
