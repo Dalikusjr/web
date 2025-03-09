@@ -3,7 +3,7 @@
 
 ## Description
 
-Ce projet est conçu pour démontrer une fonctionnalité ou un concept spécifique.
+Un projet démontrant la création et l'affichage de tokens non fongibles.
 
 ## Capture d'écran
 
