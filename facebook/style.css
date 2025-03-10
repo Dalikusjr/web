@@ -1,0 +1,63 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #becff5;
+}
+header{
+    background-color: #4867AA;
+    height: 82px;
+    width: 100%;
+    margin: auto;
+    border-radius: 5px;
+}
+#logofb{
+    position: absolute;
+    top: 8px;left: 100px;
+}
+#inscription{
+    background-color: green;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 45px; left: 370px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px ;
+}
+form{
+    width: 45%;
+    border: 1px solid #edf0f5;
+    text-align: center;
+    padding: 15px;
+    margin:40px auto 30px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+button{
+    background-color: green;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 10px;
+    color: white;
+}
+.gras{
+font-weight: bold;
+}
+#lienCreerCompte{
+    display: inline-block;
+    text-decoration: none;
+}
+a:not(#inscription):hover{
+font-style: italic;
+}
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    border:2px solid rgb(99, 95, 95);
+    border-radius: 4px;width: 50%;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
