@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertisseur TND</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="fond"></div>
+
+    <div class="contenu">
+        <h1>Convertisseur TND</h1>
+        <label for="tnd">Montant en TND :</label>
+        <input type="number" id="tnd">
+        <select name="choix" id="choix">
+            <option value="none" selected>Choisir</option>
+            <option value="eur">Euros</option>
+            <option value="usd">USD</option>
+        </select>
+        <button onclick="tndconv()">Convertir</button>
+
+        <label for="res">Résultat :</label>
+        <input type="text" id="res" readonly>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
